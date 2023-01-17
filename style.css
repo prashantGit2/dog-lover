@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the background color on hover */
+nav a:hover {
+  background-color: #111;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  nav {
+    background-color: #333;
+    position: relative;
+  }
+  nav ul {
+    position: absolute;
+    width: 100%;
+    display: none;
+  }
+  nav li {
+    width: 100%;
+    text-align: left;
+  }
+  nav a {
+    width: 100%;
+    text-align: left;
+  }
+  /* Show the navigation when the menu button is clicked */
+  .menu-btn {
+    display: block;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    text-align: right;
+  }
+  .menu-btn:hover {
+    background-color: #111;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+} */
+
+main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+  height: 400px;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
